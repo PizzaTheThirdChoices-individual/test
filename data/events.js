@@ -3,6 +3,9 @@ const DEFAULT_TICKET_URL = 'https://docs.google.com/forms/d/e/1FAIpQLScENBWWtNbC
 const liveEvents = [
   // 画像・PDFはユーザーがGitHubの assets/events と assets/setlist に配置したファイルを参照します。
   // 名前や拡張子が異なる場合は実ファイルに合わせて修正してください。
+  {id:'20261108',date:'2026-11-08',title:'Perfect Pizza Party',venue:'',
+   media:[
+    {type:'flyer',src:'assets/events/261108-PerfectPizzaParty.webp'}]},
   {id:'20260829',date:'2026-08-29',title:'Komaba Independence Days',venue:'',
    media:[
     {type:'flyer',src:'assets/events/260829-KomabaIndependenceDays-1.JPG'},
